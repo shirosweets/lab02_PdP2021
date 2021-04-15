@@ -1,0 +1,17 @@
+[
+    {
+        "url": "https://www.chicagotribune.com/arcio/rss/category/business/?query=display_date:[now-2d+TO+now]&sort=display_date:desc",
+        "urlParams": [],
+        "urlType": "rss"
+    },
+    {
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/%s.xml",
+        "urlParams": ["Business", "Technology"],
+        "urlType": "rss"
+    },
+    {
+        "url": "https://www.reddit.com/r/%s/hot/.json?count=100",
+        "urlParams": ["Marketing", "Sales", "Entrepreneur", "Startups"],
+        "urlType": "reddit"
+    }
+]
