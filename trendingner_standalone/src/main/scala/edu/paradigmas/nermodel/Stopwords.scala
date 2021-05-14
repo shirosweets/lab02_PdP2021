@@ -1,4 +1,4 @@
-package edu.paradigmas
+package edu.paradigmas.nermodel
 
 /*
  * List of words to exclude from text
