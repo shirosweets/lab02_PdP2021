@@ -91,4 +91,8 @@ La responsabilidad de almacenar esta información es de cada clase de parser.
 
 La recibe a través de un nuevo argumento el cuál será una lista con los campos solicitados.
 
-Luego, dentro de cada parser verificamos si la lista esta vacía, si lo está devuelve el resultado por defecto. Por el contrario, si la lista tiene elementos devuelve los campos solicitados.
+Luego, dentro de cada parser verificamos si la lista está vacía, si lo está devuelve el resultado por defecto. Por el contrario, si la lista tiene elementos devuelve los campos solicitados.
+
+Punto estrella: `Mejor modelo`
+
+La responsabilidad de realizar esta acción la tiene el main, ya que es una cuestión de printeo solamente.
